@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05B719560A5346E60E7A4CD1 /* Pods_Havan_HavanUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6F018C9CBE05B2D5FF1F254 /* Pods_Havan_HavanUITests.framework */; };
+		56617254C70E482B9F383C9A /* Pods_HavanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D5D78A8ABFFA36D54B0CD8C /* Pods_HavanTests.framework */; };
+		A0CEA0B82A1F0C730099976E /* FavoriteViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CEA0B72A1F0C730099976E /* FavoriteViewModelProtocol.swift */; };
+		A0CEA0BA2A1F0CC20099976E /* FavoriteViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CEA0B92A1F0CC20099976E /* FavoriteViewProtocol.swift */; };
+		A0CEA0BC2A1F0D800099976E /* ListViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CEA0BB2A1F0D800099976E /* ListViewProtocol.swift */; };
+		A0CEA0BE2A1F12080099976E /* DetailViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CEA0BD2A1F12080099976E /* DetailViewProtocol.swift */; };
+		A0CEA0C02A1F13420099976E /* DetailViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CEA0BF2A1F13420099976E /* DetailViewModelProtocol.swift */; };
+		A0CEA0C22A1F2BD00099976E /* TestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CEA0C12A1F2BD00099976E /* TestError.swift */; };
 		A0D05F3A2A1D771D00757F19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D05F392A1D771D00757F19 /* AppDelegate.swift */; };
 		A0D05F3C2A1D771D00757F19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D05F3B2A1D771D00757F19 /* SceneDelegate.swift */; };
 		A0D05F3E2A1D771D00757F19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D05F3D2A1D771D00757F19 /* ViewController.swift */; };
@@ -17,6 +25,32 @@
 		A0D05F542A1D771E00757F19 /* HavanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D05F532A1D771E00757F19 /* HavanTests.swift */; };
 		A0D05F5E2A1D771E00757F19 /* HavanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D05F5D2A1D771E00757F19 /* HavanUITests.swift */; };
 		A0D05F602A1D771E00757F19 /* HavanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D05F5F2A1D771E00757F19 /* HavanUITestsLaunchTests.swift */; };
+		A0D05F712A1D77CC00757F19 /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D05F702A1D77CC00757F19 /* CoordinatorProtocol.swift */; };
+		A0D05F732A1D77EA00757F19 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D05F722A1D77EA00757F19 /* Coordinator.swift */; };
+		A0D05F762A1D787800757F19 /* ViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D05F752A1D787800757F19 /* ViewControllerFactory.swift */; };
+		A0D05F782A1D78CD00757F19 /* ViewModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D05F772A1D78CD00757F19 /* ViewModelFactory.swift */; };
+		A0D05F7C2A1D7EA600757F19 /* ProductServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D05F7B2A1D7EA600757F19 /* ProductServiceProtocol.swift */; };
+		A0D05F7E2A1D7ECE00757F19 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D05F7D2A1D7ECD00757F19 /* ImageService.swift */; };
+		A0D05F812A1D7F7600757F19 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D05F802A1D7F7600757F19 /* Product.swift */; };
+		A0D05F862A1D7FCC00757F19 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D05F852A1D7FCC00757F19 /* ListViewModel.swift */; };
+		A0D05F882A1D83BA00757F19 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D05F872A1D83BA00757F19 /* ListView.swift */; };
+		A0D05F8A2A1D841D00757F19 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D05F892A1D841D00757F19 /* ListViewController.swift */; };
+		A0D05F8D2A1D892100757F19 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D05F8C2A1D892100757F19 /* ProductCell.swift */; };
+		A0D05F912A1D9F6300757F19 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D05F902A1D9F6300757F19 /* DetailViewModel.swift */; };
+		A0D05F932A1DA12600757F19 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D05F922A1DA12600757F19 /* DetailViewController.swift */; };
+		A0D05F952A1DA26900757F19 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D05F942A1DA26900757F19 /* DetailView.swift */; };
+		A0D05F982A1DAB1D00757F19 /* DetailViewEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D05F972A1DAB1D00757F19 /* DetailViewEntity.swift */; };
+		A0D05F9B2A1DBBC100757F19 /* FavoriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D05F9A2A1DBBC100757F19 /* FavoriteViewModel.swift */; };
+		A0D05F9E2A1DBC1F00757F19 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D05F9D2A1DBC1F00757F19 /* FavoriteView.swift */; };
+		A0D05FA02A1DBC7D00757F19 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D05F9F2A1DBC7D00757F19 /* FavoriteViewController.swift */; };
+		A0D05FA32A1DD14200757F19 /* FilterBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D05FA22A1DD14200757F19 /* FilterBarView.swift */; };
+		A0D05FAA2A1E7C4600757F19 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D05FA92A1E7C4600757F19 /* CoreDataManager.swift */; };
+		A0D05FAE2A1EB9DE00757F19 /* ProductService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D05FAD2A1EB9DE00757F19 /* ProductService.swift */; };
+		A0D05FB02A1EBA3A00757F19 /* ImageServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D05FAF2A1EBA3A00757F19 /* ImageServiceProtocol.swift */; };
+		A0D05FB22A1EBCD100757F19 /* ListViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D05FB12A1EBCD100757F19 /* ListViewModelProtocol.swift */; };
+		A0D05FB62A1ED29F00757F19 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D05FB52A1ED29F00757F19 /* String+Ext.swift */; };
+		A0D05FB92A1EE6D900757F19 /* ListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D05FB82A1EE6D900757F19 /* ListViewModelTests.swift */; };
+		EC4305CEF6797A390967EF8C /* Pods_Havan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F663C43680BDD2A9559D89 /* Pods_Havan.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +71,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AA13553D699AA5589B4FA72 /* Pods-Havan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Havan.debug.xcconfig"; path = "Target Support Files/Pods-Havan/Pods-Havan.debug.xcconfig"; sourceTree = "<group>"; };
+		19595B23A1FB504DA9CF9AF3 /* Pods-Havan-HavanUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Havan-HavanUITests.release.xcconfig"; path = "Target Support Files/Pods-Havan-HavanUITests/Pods-Havan-HavanUITests.release.xcconfig"; sourceTree = "<group>"; };
+		259E0A78DFCAAA2BCD495892 /* Pods-HavanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HavanTests.debug.xcconfig"; path = "Target Support Files/Pods-HavanTests/Pods-HavanTests.debug.xcconfig"; sourceTree = "<group>"; };
+		37358F996FDA0E457CC746B0 /* Pods-Havan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Havan.release.xcconfig"; path = "Target Support Files/Pods-Havan/Pods-Havan.release.xcconfig"; sourceTree = "<group>"; };
+		43F663C43680BDD2A9559D89 /* Pods_Havan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Havan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A394FC00760D98A76D5A0D0 /* Pods-Havan-HavanUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Havan-HavanUITests.debug.xcconfig"; path = "Target Support Files/Pods-Havan-HavanUITests/Pods-Havan-HavanUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C3DAD53E22C46986187C382 /* Pods-HavanTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HavanTests.release.xcconfig"; path = "Target Support Files/Pods-HavanTests/Pods-HavanTests.release.xcconfig"; sourceTree = "<group>"; };
+		8D5D78A8ABFFA36D54B0CD8C /* Pods_HavanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HavanTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CEA0B72A1F0C730099976E /* FavoriteViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewModelProtocol.swift; sourceTree = "<group>"; };
+		A0CEA0B92A1F0CC20099976E /* FavoriteViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewProtocol.swift; sourceTree = "<group>"; };
+		A0CEA0BB2A1F0D800099976E /* ListViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewProtocol.swift; sourceTree = "<group>"; };
+		A0CEA0BD2A1F12080099976E /* DetailViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewProtocol.swift; sourceTree = "<group>"; };
+		A0CEA0BF2A1F13420099976E /* DetailViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModelProtocol.swift; sourceTree = "<group>"; };
+		A0CEA0C12A1F2BD00099976E /* TestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestError.swift; sourceTree = "<group>"; };
 		A0D05F362A1D771D00757F19 /* Havan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Havan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0D05F392A1D771D00757F19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0D05F3B2A1D771D00757F19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +99,32 @@
 		A0D05F592A1D771E00757F19 /* HavanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HavanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0D05F5D2A1D771E00757F19 /* HavanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HavanUITests.swift; sourceTree = "<group>"; };
 		A0D05F5F2A1D771E00757F19 /* HavanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HavanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A0D05F702A1D77CC00757F19 /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
+		A0D05F722A1D77EA00757F19 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		A0D05F752A1D787800757F19 /* ViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerFactory.swift; sourceTree = "<group>"; };
+		A0D05F772A1D78CD00757F19 /* ViewModelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelFactory.swift; sourceTree = "<group>"; };
+		A0D05F7B2A1D7EA600757F19 /* ProductServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductServiceProtocol.swift; sourceTree = "<group>"; };
+		A0D05F7D2A1D7ECD00757F19 /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		A0D05F802A1D7F7600757F19 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		A0D05F852A1D7FCC00757F19 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		A0D05F872A1D83BA00757F19 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		A0D05F892A1D841D00757F19 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		A0D05F8C2A1D892100757F19 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		A0D05F902A1D9F6300757F19 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		A0D05F922A1DA12600757F19 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A0D05F942A1DA26900757F19 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		A0D05F972A1DAB1D00757F19 /* DetailViewEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewEntity.swift; sourceTree = "<group>"; };
+		A0D05F9A2A1DBBC100757F19 /* FavoriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewModel.swift; sourceTree = "<group>"; };
+		A0D05F9D2A1DBC1F00757F19 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		A0D05F9F2A1DBC7D00757F19 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		A0D05FA22A1DD14200757F19 /* FilterBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterBarView.swift; sourceTree = "<group>"; };
+		A0D05FA92A1E7C4600757F19 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		A0D05FAD2A1EB9DE00757F19 /* ProductService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductService.swift; sourceTree = "<group>"; };
+		A0D05FAF2A1EBA3A00757F19 /* ImageServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageServiceProtocol.swift; sourceTree = "<group>"; };
+		A0D05FB12A1EBCD100757F19 /* ListViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModelProtocol.swift; sourceTree = "<group>"; };
+		A0D05FB52A1ED29F00757F19 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		A0D05FB82A1EE6D900757F19 /* ListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModelTests.swift; sourceTree = "<group>"; };
+		C6F018C9CBE05B2D5FF1F254 /* Pods_Havan_HavanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Havan_HavanUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC4305CEF6797A390967EF8C /* Pods_Havan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56617254C70E482B9F383C9A /* Pods_HavanTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +148,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05B719560A5346E60E7A4CD1 /* Pods_Havan_HavanUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D137E3E359A1F4776E69723 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AA13553D699AA5589B4FA72 /* Pods-Havan.debug.xcconfig */,
+				37358F996FDA0E457CC746B0 /* Pods-Havan.release.xcconfig */,
+				6A394FC00760D98A76D5A0D0 /* Pods-Havan-HavanUITests.debug.xcconfig */,
+				19595B23A1FB504DA9CF9AF3 /* Pods-Havan-HavanUITests.release.xcconfig */,
+				259E0A78DFCAAA2BCD495892 /* Pods-HavanTests.debug.xcconfig */,
+				7C3DAD53E22C46986187C382 /* Pods-HavanTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A0D05F2D2A1D771D00757F19 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +175,8 @@
 				A0D05F522A1D771E00757F19 /* HavanTests */,
 				A0D05F5C2A1D771E00757F19 /* HavanUITests */,
 				A0D05F372A1D771D00757F19 /* Products */,
+				5D137E3E359A1F4776E69723 /* Pods */,
+				EC35C26DA4545965CBEF12E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +193,14 @@
 		A0D05F382A1D771D00757F19 /* Havan */ = {
 			isa = PBXGroup;
 			children = (
+				A0D05FB42A1ED27F00757F19 /* Extensions */,
+				A0D05FA82A1E7C2600757F19 /* Data */,
+				A0D05F7F2A1D7F6D00757F19 /* Model */,
+				A0D05F7A2A1D7E9B00757F19 /* Service */,
+				A0D05F742A1D786800757F19 /* Factory */,
+				A0D05F6F2A1D779600757F19 /* Coordinator */,
+				A0D05F6C2A1D777D00757F19 /* Feature */,
+				A0D05FAC2A1EAFB600757F19 /* Components */,
 				A0D05F392A1D771D00757F19 /* AppDelegate.swift */,
 				A0D05F3B2A1D771D00757F19 /* SceneDelegate.swift */,
 				A0D05F3D2A1D771D00757F19 /* ViewController.swift */,
@@ -116,7 +216,9 @@
 		A0D05F522A1D771E00757F19 /* HavanTests */ = {
 			isa = PBXGroup;
 			children = (
+				A0D05FB72A1EE6B700757F19 /* ViewModels */,
 				A0D05F532A1D771E00757F19 /* HavanTests.swift */,
+				A0CEA0C12A1F2BD00099976E /* TestError.swift */,
 			);
 			path = HavanTests;
 			sourceTree = "<group>";
@@ -130,6 +232,189 @@
 			path = HavanUITests;
 			sourceTree = "<group>";
 		};
+		A0D05F6C2A1D777D00757F19 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				A0D05F6D2A1D778400757F19 /* List */,
+				A0D05F6E2A1D778D00757F19 /* Detail */,
+				A0D05F792A1D79D000757F19 /* Favorite */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		A0D05F6D2A1D778400757F19 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				A0D05F892A1D841D00757F19 /* ListViewController.swift */,
+				A0D05FA12A1DD12600757F19 /* View */,
+				A0D05F822A1D7FB800757F19 /* ViewModel */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		A0D05F6E2A1D778D00757F19 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				A0D05F922A1DA12600757F19 /* DetailViewController.swift */,
+				A0D05F962A1DAB0C00757F19 /* View */,
+				A0D05F8E2A1D9F4E00757F19 /* ViewModel */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		A0D05F6F2A1D779600757F19 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				A0D05F702A1D77CC00757F19 /* CoordinatorProtocol.swift */,
+				A0D05F722A1D77EA00757F19 /* Coordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		A0D05F742A1D786800757F19 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				A0D05F752A1D787800757F19 /* ViewControllerFactory.swift */,
+				A0D05F772A1D78CD00757F19 /* ViewModelFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		A0D05F792A1D79D000757F19 /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				A0D05F9F2A1DBC7D00757F19 /* FavoriteViewController.swift */,
+				A0D05F9C2A1DBC1400757F19 /* View */,
+				A0D05F992A1DBBB500757F19 /* ViewModel */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		A0D05F7A2A1D7E9B00757F19 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				A0D05FAD2A1EB9DE00757F19 /* ProductService.swift */,
+				A0D05F7B2A1D7EA600757F19 /* ProductServiceProtocol.swift */,
+				A0D05F7D2A1D7ECD00757F19 /* ImageService.swift */,
+				A0D05FAF2A1EBA3A00757F19 /* ImageServiceProtocol.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A0D05F7F2A1D7F6D00757F19 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A0D05F802A1D7F7600757F19 /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A0D05F822A1D7FB800757F19 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A0D05F852A1D7FCC00757F19 /* ListViewModel.swift */,
+				A0D05FB12A1EBCD100757F19 /* ListViewModelProtocol.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A0D05F8B2A1D891900757F19 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A0D05F8C2A1D892100757F19 /* ProductCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A0D05F8E2A1D9F4E00757F19 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A0D05F902A1D9F6300757F19 /* DetailViewModel.swift */,
+				A0CEA0BF2A1F13420099976E /* DetailViewModelProtocol.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A0D05F962A1DAB0C00757F19 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A0D05F942A1DA26900757F19 /* DetailView.swift */,
+				A0D05F972A1DAB1D00757F19 /* DetailViewEntity.swift */,
+				A0CEA0BD2A1F12080099976E /* DetailViewProtocol.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A0D05F992A1DBBB500757F19 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A0D05F9A2A1DBBC100757F19 /* FavoriteViewModel.swift */,
+				A0CEA0B72A1F0C730099976E /* FavoriteViewModelProtocol.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A0D05F9C2A1DBC1400757F19 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A0D05F9D2A1DBC1F00757F19 /* FavoriteView.swift */,
+				A0CEA0B92A1F0CC20099976E /* FavoriteViewProtocol.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A0D05FA12A1DD12600757F19 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A0D05F872A1D83BA00757F19 /* ListView.swift */,
+				A0CEA0BB2A1F0D800099976E /* ListViewProtocol.swift */,
+				A0D05F8B2A1D891900757F19 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A0D05FA82A1E7C2600757F19 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A0D05FA92A1E7C4600757F19 /* CoreDataManager.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A0D05FAC2A1EAFB600757F19 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A0D05FA22A1DD14200757F19 /* FilterBarView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A0D05FB42A1ED27F00757F19 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A0D05FB52A1ED29F00757F19 /* String+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A0D05FB72A1EE6B700757F19 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A0D05FB82A1EE6D900757F19 /* ListViewModelTests.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EC35C26DA4545965CBEF12E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43F663C43680BDD2A9559D89 /* Pods_Havan.framework */,
+				C6F018C9CBE05B2D5FF1F254 /* Pods_Havan_HavanUITests.framework */,
+				8D5D78A8ABFFA36D54B0CD8C /* Pods_HavanTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +422,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0D05F632A1D771E00757F19 /* Build configuration list for PBXNativeTarget "Havan" */;
 			buildPhases = (
+				27289E5F021AD0A2A0448F7E /* [CP] Check Pods Manifest.lock */,
 				A0D05F322A1D771D00757F19 /* Sources */,
 				A0D05F332A1D771D00757F19 /* Frameworks */,
 				A0D05F342A1D771D00757F19 /* Resources */,
+				506DEDD08B154AE2760B2BCE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +441,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0D05F662A1D771E00757F19 /* Build configuration list for PBXNativeTarget "HavanTests" */;
 			buildPhases = (
+				F89FB8E80460CA34AF8D0388 /* [CP] Check Pods Manifest.lock */,
 				A0D05F4B2A1D771E00757F19 /* Sources */,
 				A0D05F4C2A1D771E00757F19 /* Frameworks */,
 				A0D05F4D2A1D771E00757F19 /* Resources */,
@@ -172,9 +460,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0D05F692A1D771E00757F19 /* Build configuration list for PBXNativeTarget "HavanUITests" */;
 			buildPhases = (
+				DB6D38395879BCDE9B27F82C /* [CP] Check Pods Manifest.lock */,
 				A0D05F552A1D771E00757F19 /* Sources */,
 				A0D05F562A1D771E00757F19 /* Frameworks */,
 				A0D05F572A1D771E00757F19 /* Resources */,
+				CD21589E4D741192A0732252 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,15 +546,147 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		27289E5F021AD0A2A0448F7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Havan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		506DEDD08B154AE2760B2BCE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Havan/Pods-Havan-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Havan/Pods-Havan-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Havan/Pods-Havan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD21589E4D741192A0732252 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Havan-HavanUITests/Pods-Havan-HavanUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Havan-HavanUITests/Pods-Havan-HavanUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Havan-HavanUITests/Pods-Havan-HavanUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB6D38395879BCDE9B27F82C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Havan-HavanUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F89FB8E80460CA34AF8D0388 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HavanTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A0D05F322A1D771D00757F19 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0D05FA02A1DBC7D00757F19 /* FavoriteViewController.swift in Sources */,
+				A0D05F912A1D9F6300757F19 /* DetailViewModel.swift in Sources */,
 				A0D05F442A1D771D00757F19 /* Havan.xcdatamodeld in Sources */,
+				A0D05F762A1D787800757F19 /* ViewControllerFactory.swift in Sources */,
+				A0D05FA32A1DD14200757F19 /* FilterBarView.swift in Sources */,
 				A0D05F3E2A1D771D00757F19 /* ViewController.swift in Sources */,
+				A0D05F732A1D77EA00757F19 /* Coordinator.swift in Sources */,
+				A0D05F9B2A1DBBC100757F19 /* FavoriteViewModel.swift in Sources */,
+				A0D05F712A1D77CC00757F19 /* CoordinatorProtocol.swift in Sources */,
+				A0D05FAE2A1EB9DE00757F19 /* ProductService.swift in Sources */,
+				A0D05F812A1D7F7600757F19 /* Product.swift in Sources */,
+				A0D05F982A1DAB1D00757F19 /* DetailViewEntity.swift in Sources */,
+				A0D05F782A1D78CD00757F19 /* ViewModelFactory.swift in Sources */,
+				A0D05F932A1DA12600757F19 /* DetailViewController.swift in Sources */,
+				A0D05F8A2A1D841D00757F19 /* ListViewController.swift in Sources */,
+				A0D05F7C2A1D7EA600757F19 /* ProductServiceProtocol.swift in Sources */,
+				A0D05F862A1D7FCC00757F19 /* ListViewModel.swift in Sources */,
+				A0D05F882A1D83BA00757F19 /* ListView.swift in Sources */,
+				A0CEA0B82A1F0C730099976E /* FavoriteViewModelProtocol.swift in Sources */,
+				A0CEA0BE2A1F12080099976E /* DetailViewProtocol.swift in Sources */,
+				A0CEA0BC2A1F0D800099976E /* ListViewProtocol.swift in Sources */,
+				A0D05FAA2A1E7C4600757F19 /* CoreDataManager.swift in Sources */,
+				A0D05F9E2A1DBC1F00757F19 /* FavoriteView.swift in Sources */,
+				A0D05F7E2A1D7ECE00757F19 /* ImageService.swift in Sources */,
+				A0D05F8D2A1D892100757F19 /* ProductCell.swift in Sources */,
+				A0D05FB62A1ED29F00757F19 /* String+Ext.swift in Sources */,
+				A0CEA0C02A1F13420099976E /* DetailViewModelProtocol.swift in Sources */,
+				A0D05FB22A1EBCD100757F19 /* ListViewModelProtocol.swift in Sources */,
+				A0D05F952A1DA26900757F19 /* DetailView.swift in Sources */,
 				A0D05F3A2A1D771D00757F19 /* AppDelegate.swift in Sources */,
 				A0D05F3C2A1D771D00757F19 /* SceneDelegate.swift in Sources */,
+				A0CEA0BA2A1F0CC20099976E /* FavoriteViewProtocol.swift in Sources */,
+				A0D05FB02A1EBA3A00757F19 /* ImageServiceProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +694,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0CEA0C22A1F2BD00099976E /* TestError.swift in Sources */,
+				A0D05FB92A1EE6D900757F19 /* ListViewModelTests.swift in Sources */,
 				A0D05F542A1D771E00757F19 /* HavanTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +860,7 @@
 		};
 		A0D05F642A1D771E00757F19 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AA13553D699AA5589B4FA72 /* Pods-Havan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -464,6 +889,7 @@
 		};
 		A0D05F652A1D771E00757F19 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37358F996FDA0E457CC746B0 /* Pods-Havan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -492,6 +918,7 @@
 		};
 		A0D05F672A1D771E00757F19 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 259E0A78DFCAAA2BCD495892 /* Pods-HavanTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +939,7 @@
 		};
 		A0D05F682A1D771E00757F19 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C3DAD53E22C46986187C382 /* Pods-HavanTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +960,7 @@
 		};
 		A0D05F6A2A1D771E00757F19 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A394FC00760D98A76D5A0D0 /* Pods-Havan-HavanUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +979,7 @@
 		};
 		A0D05F6B2A1D771E00757F19 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19595B23A1FB504DA9CF9AF3 /* Pods-Havan-HavanUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

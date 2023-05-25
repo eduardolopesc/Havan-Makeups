@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6CC41562-9882-4D74-BF62-B7724FB5CA17"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8360B0C2-2CE4-4D91-84F6-2B08DBDF700A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Havan/Feature/Detail/ViewModel/DetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "fetchImage()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8360B0C2-2CE4-4D91-84F6-2B08DBDF700A - 8b5e739bbf7b6991"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;__C.UIImage, Swift.Error&gt;) -&gt; () in Havan.DetailViewModel.fetchImage() -&gt; ()"
+                  moduleName = "Havan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardo/Documents/Havan/Havan/Feature/Detail/ViewModel/DetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "500">
+               </Location>
+               <Location
+                  uuid = "8360B0C2-2CE4-4D91-84F6-2B08DBDF700A - 8b5e739bbf7b69b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;__C.UIImage, Swift.Error&gt;) -&gt; () in Havan.DetailViewModel.fetchImage() -&gt; ()"
+                  moduleName = "Havan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardo/Documents/Havan/Havan/Feature/Detail/ViewModel/DetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "460">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "63B55550-8DC5-4021-A0AB-AD8D013ED411"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Havan/Feature/Detail/ViewModel/DetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "saveProductToFavorite()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "63B55550-8DC5-4021-A0AB-AD8D013ED411 - df470ba4258dd5b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Havan.DetailViewModel.saveProductToFavorite() -&gt; ()"
+                  moduleName = "Havan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardo/Documents/Havan/Havan/Feature/Detail/ViewModel/DetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "63B55550-8DC5-4021-A0AB-AD8D013ED411 - df470ba4258dd535"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Havan.DetailViewModel.saveProductToFavorite() -&gt; ()"
+                  moduleName = "Havan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardo/Documents/Havan/Havan/Feature/Detail/ViewModel/DetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "63B55550-8DC5-4021-A0AB-AD8D013ED411 - df470ba4258dd5f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Havan.DetailViewModel.saveProductToFavorite() -&gt; ()"
+                  moduleName = "Havan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardo/Documents/Havan/Havan/Feature/Detail/ViewModel/DetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A1B4D414-C125-4ED9-B4EA-38F3987F9710"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Havan/Feature/Favorite/ViewModel/FavoriteViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "fetchFavorites()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0EB1428C-C2A5-46DC-B0CC-43284EC6FF9B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Havan/Feature/Detail/View/DetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "setFavorite()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BDB2D133-3582-4570-88A5-5CA7914CA196"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Havan/Feature/Detail/ViewModel/DetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "checkIsFavorite()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BDB2D133-3582-4570-88A5-5CA7914CA196 - 137f4b04f12bc9cf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Havan.DetailViewModel.viewEntity() -&gt; Havan.DetailViewEntity"
+                  moduleName = "Havan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardo/Documents/Havan/Havan/Feature/Detail/ViewModel/DetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "824">
+               </Location>
+               <Location
+                  uuid = "BDB2D133-3582-4570-88A5-5CA7914CA196 - ff20c8c62f4ae172"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Havan.DetailViewModel.checkIsFavorite() -&gt; ()"
+                  moduleName = "Havan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardo/Documents/Havan/Havan/Feature/Detail/ViewModel/DetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "228">
+               </Location>
+               <Location
+                  uuid = "BDB2D133-3582-4570-88A5-5CA7914CA196 - ff20c8c62f4ae1f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Havan.DetailViewModel.checkIsFavorite() -&gt; ()"
+                  moduleName = "Havan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardo/Documents/Havan/Havan/Feature/Detail/ViewModel/DetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "228">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C87F92E1-78C9-4DE3-878A-1A582DB43B56"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Havan/Feature/Detail/ViewModel/DetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "checkIsFavorite()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C87F92E1-78C9-4DE3-878A-1A582DB43B56 - 137f4b04f12bc98d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Havan.DetailViewModel.viewEntity() -&gt; Havan.DetailViewEntity"
+                  moduleName = "Havan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardo/Documents/Havan/Havan/Feature/Detail/ViewModel/DetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "1616">
+               </Location>
+               <Location
+                  uuid = "C87F92E1-78C9-4DE3-878A-1A582DB43B56 - ff20c8c62f4ae130"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Havan.DetailViewModel.checkIsFavorite() -&gt; ()"
+                  moduleName = "Havan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardo/Documents/Havan/Havan/Feature/Detail/ViewModel/DetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "280">
+               </Location>
+               <Location
+                  uuid = "C87F92E1-78C9-4DE3-878A-1A582DB43B56 - ff20c8c62f4ae1b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Havan.DetailViewModel.checkIsFavorite() -&gt; ()"
+                  moduleName = "Havan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardo/Documents/Havan/Havan/Feature/Detail/ViewModel/DetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "280">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5A658928-A43D-4B9F-A12F-51889AD28F82"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Havan/Feature/Favorite/View/FavoriteViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EE265D0D-9127-4863-A905-1677EBCCC2F3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Havan/Feature/Favorite/View/FavoriteView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "656A42EA-A7AD-4AF0-8CB1-5B874AF1F2B0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Havan/Model/Product.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "completePrice"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8AAA12C2-0A4C-434F-B756-47D51782A038"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Havan/Model/Product.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "completePrice"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B83888D0-60EB-4250-92BD-044EB705BC0B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Havan/Feature/List/View/ListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
+            landmarkName = "reloadView(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B83888D0-60EB-4250-92BD-044EB705BC0B - 93b34649be7bb678"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Havan.ListView.tableView(_: __C.UITableView, numberOfRowsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "Havan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardo/Documents/Havan/Havan/Feature/List/View/ListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "124"
+                  endingLineNumber = "124"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "B83888D0-60EB-4250-92BD-044EB705BC0B - 11e79b57a6ca7315"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Havan.ListView.reloadView(with: Swift.Array&lt;Havan.Product&gt;) -&gt; ()"
+                  moduleName = "Havan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardo/Documents/Havan/Havan/Feature/List/View/ListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "B83888D0-60EB-4250-92BD-044EB705BC0B - 11e79b57a6ca71ed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Havan.ListView.reloadView(with: Swift.Array&lt;Havan.Product&gt;) -&gt; ()"
+                  moduleName = "Havan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardo/Documents/Havan/Havan/Feature/List/View/ListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "130"
+                  endingLineNumber = "130"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BA9A34DF-53F2-4C77-9930-E31078D4778F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Havan/Feature/List/View/ListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "131"
+            endingLineNumber = "131"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BA9A34DF-53F2-4C77-9930-E31078D4778F - 7ff0ba9be215b788"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Havan.ListView.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "Havan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardo/Documents/Havan/Havan/Feature/List/View/ListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "129"
+                  endingLineNumber = "129"
+                  offsetFromSymbolStart = "812">
+               </Location>
+               <Location
+                  uuid = "BA9A34DF-53F2-4C77-9930-E31078D4778F - 93b34649be7bb6dd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Havan.ListView.tableView(_: __C.UITableView, numberOfRowsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "Havan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardo/Documents/Havan/Havan/Feature/List/View/ListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "129"
+                  endingLineNumber = "129"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "BA9A34DF-53F2-4C77-9930-E31078D4778F - 93b34649be7bb5d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Havan.ListView.tableView(_: __C.UITableView, numberOfRowsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "Havan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardo/Documents/Havan/Havan/Feature/List/View/ListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "137"
+                  endingLineNumber = "137"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9B789A8D-1CDD-4828-B26A-BCE14AF2A2C0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Havan/Feature/Favorite/View/FavoriteView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "products"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "9B789A8D-1CDD-4828-B26A-BCE14AF2A2C0 - 1841d22605302097"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Havan.FavoriteView.products.didset : Swift.Array&lt;Havan.Product&gt;"
+                  moduleName = "Havan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardo/Documents/Havan/Havan/Feature/Favorite/View/FavoriteView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "9B789A8D-1CDD-4828-B26A-BCE14AF2A2C0 - 1841d22605302138"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Havan.FavoriteView.products.didset : Swift.Array&lt;Havan.Product&gt;"
+                  moduleName = "Havan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardo/Documents/Havan/Havan/Feature/Favorite/View/FavoriteView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "372D0952-A5F1-42B0-8965-D096B64ADF23"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Havan/Feature/Favorite/View/FavoriteView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "reloadView(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8018770C-6525-4863-BE27-EF45FFD5347D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Havan/Feature/Favorite/View/FavoriteViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "bindViewModelActions()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "97BAA666-B1FB-404F-BAC5-721470071CBC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Havan/Feature/Favorite/ViewModel/FavoriteViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "products"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "97BAA666-B1FB-404F-BAC5-721470071CBC - c8ea348608f3c60e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Havan.FavoriteViewModel.products.didset : Swift.Array&lt;Havan.Product&gt;"
+                  moduleName = "Havan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardo/Documents/Havan/Havan/Feature/Favorite/ViewModel/FavoriteViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "97BAA666-B1FB-404F-BAC5-721470071CBC - c8ea348608f3c565"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Havan.FavoriteViewModel.products.didset : Swift.Array&lt;Havan.Product&gt;"
+                  moduleName = "Havan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardo/Documents/Havan/Havan/Feature/Favorite/ViewModel/FavoriteViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7AF47A01-7F9A-417C-B52F-DA5CBC47DE8F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Havan/Feature/Favorite/View/FavoriteView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1DAC53BE-49BE-4B07-BE22-5A3F13F82776"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Havan/Feature/Favorite/View/FavoriteView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0CCCFFF0-F3B5-4CD7-B52F-7262611D2F11"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Havan/Feature/Favorite/View/FavoriteViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "bindViewActions()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0CCCFFF0-F3B5-4CD7-B52F-7262611D2F11 - 2d81b571a17832ad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Havan.Product) -&gt; () in Havan.FavoriteViewController.bindViewActions() -&gt; ()"
+                  moduleName = "Havan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardo/Documents/Havan/Havan/Feature/Favorite/View/FavoriteViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "220">
+               </Location>
+               <Location
+                  uuid = "0CCCFFF0-F3B5-4CD7-B52F-7262611D2F11 - 2d81b571a17832ad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Havan.Product) -&gt; () in Havan.FavoriteViewController.bindViewActions() -&gt; ()"
+                  moduleName = "Havan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardo/Documents/Havan/Havan/Feature/Favorite/View/FavoriteViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5DF43822-7BD6-4B6A-ACD5-068E12F3A1A1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Havan/Feature/Detail/View/DetailView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "addConstraints()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5DF43822-7BD6-4B6A-ACD5-068E12F3A1A1 - 72a3b39455ea2c47"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Havan.DetailView.addConstraints() -&gt; ()"
+                  moduleName = "Havan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardo/Documents/Havan/Havan/Feature/Detail/View/DetailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "5DF43822-7BD6-4B6A-ACD5-068E12F3A1A1 - 72a3b39455ea2f85"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Havan.DetailView.addConstraints() -&gt; ()"
+                  moduleName = "Havan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardo/Documents/Havan/Havan/Feature/Detail/View/DetailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF568A1D-CD81-4319-92D1-CD93670F26C5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Havan/Feature/Detail/ViewModel/DetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "productImage"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "296FDFC8-54E6-49B1-983C-284E925B8FB8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Havan/Feature/Detail/View/DetailView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "174"
+            endingLineNumber = "174"
+            landmarkName = "updateImage(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1AF2D4E9-8C74-4C5E-9301-5752DBE4C3DF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Havan/Feature/Detail/View/DetailView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "171"
+            endingLineNumber = "171"
+            landmarkName = "updateImage(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
